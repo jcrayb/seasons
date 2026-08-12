@@ -11,4 +11,4 @@ execute if score BlockSpeed _seasons matches 0 run scoreboard players set BlockS
 scoreboard players add Range _seasons 0
 execute if score Range _seasons matches 0 run scoreboard players set Range _seasons 12
 
-gamerule max_snow_accumulation_height 8
+gamerule snowAccumulationHeight 8
