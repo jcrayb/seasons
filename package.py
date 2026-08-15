@@ -1,5 +1,6 @@
 import os.path
 from zipfile import ZipFile
+import sys
 
 def in_excluded_folder(file, excludes):
     excluded_folders = [x for x in excludes if x[-1] == '/']
@@ -31,4 +32,4 @@ try:
     os.remove('seasons.zip')
 except OSError:
     pass
-zip('seasons.zip', '.', ['templates/', 'vanilla/', 'build.py', 'CONTRIBUTING.md', 'Notes.txt', 'package.py', 'seasons.zip', 'credentials.json', 'metadata.json'])
+zip(f'seasons{"_"+sys.argv[1] if len(sys.argv) >= 2 else ""}.zip', '.', ['templates/', 'vanilla/', 'build.py', 'CONTRIBUTING.md', 'Notes.txt', 'package.py', 'seasons.zip', 'credentials.json', 'metadata.json'])

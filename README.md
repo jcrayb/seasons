@@ -1,6 +1,6 @@
 # Minecraft Seasons datapack
 
-This is a datapack that adds seasonal shifts to vanilla Minecraft, made by slicedlime.
+This is a datapack that adds seasonal shifts to vanilla Minecraft, made by slicedlime (upgraded to newer version by jcrayb).
 
 ## Features
 
@@ -20,7 +20,7 @@ This is a datapack that adds seasonal shifts to vanilla Minecraft, made by slice
 
 This datapack uses experimental world generation features to create seasonal variations of the
 vanilla biomes. Because those features are experimental, the pack is expected to break with every
-new version of Minecraft. It currently works with Minecraft 1.21.5 (and no other known version).
+new version of Minecraft. It currently works with Minecraft 1.21.5-26.2 (releases available in "Releases" tab).
 
 This also means that levels with the pack on will show a warning screen for of it using
 experimental features.
