@@ -14,12 +14,9 @@
       "tick_delay": 6000
     },
     "music_volume": 1.0,
-    "sky_color": 10073317,
+    "sky_color": 7842047,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "grass_color": 10992746,
-    "foliage_color": 9575420,
-    "dry_foliage_color": 10707526
+    "water_fog_color": 329011
   },
   "features": [
     [],
@@ -117,5 +114,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.5
+  "temperature": 0.9
 }
